@@ -38,7 +38,7 @@ border: 1px solid #bfbfbf;
 }
 .content-box .typing-text{
 overflow: hidden;
-max-height: 340px;
+max-height: 450px;
 }
 .typing-text::-webkit-scrollbar{
 width: 0;
