@@ -29,16 +29,16 @@ let rawChar = inpField.value.split("")[charIndex];
 function remapKey(char) {
     const map = {
     'e': 'r',
-    'r': 'e',
-    'i': 'o',
-    'o': 'i',
-    'a': 's',
-    's': 'a',
     'E': 'R',
+    'r': 'e',
     'R': 'E',
+    'i': 'o',
     'I': 'O',
+    'o': 'i',
     'O': 'I',
+    'a': 's',
     'A': 'S',
+    's': 'a',
     'S': 'A'
     };
     return map[char] || char;
