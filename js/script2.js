@@ -33,7 +33,13 @@ function remapKey(char) {
     'i': 'o',
     'o': 'i',
     'a': 's',
-    's': 'a'
+    's': 'a',
+    'E': 'R',
+    'R': 'E',
+    'I': 'O',
+    'O': 'I',
+    'A': 'S',
+    'S': 'A'
     };
     return map[char] || char;
 }
